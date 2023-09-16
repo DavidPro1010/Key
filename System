@@ -1,0 +1,285 @@
+
+--- By Ropex Hub
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local UI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local NameRopex = Instance.new("TextLabel")
+local Description = Instance.new("TextLabel")
+local Textlabel = Instance.new("TextLabel")
+local KeyBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Submit = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Discord = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Help = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local HelpSection = Instance.new("Folder")
+local Help1 = Instance.new("TextLabel")
+local Help2 = Instance.new("TextLabel")
+local Help3 = Instance.new("TextLabel")
+local Help4 = Instance.new("TextLabel")
+local Back = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+
+--Properties:
+
+UI.Name = "UI"
+UI.Parent = game.CoreGui
+UI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = UI
+Main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.392446548, 0, 0.375592589, 0)
+Main.Size = UDim2.new(0.214000002, 0, 0, 0)
+
+UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.Parent = Main
+
+NameRopex.Name = "NameRopex"
+NameRopex.Parent = Main
+NameRopex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameRopex.BackgroundTransparency = 1.000
+NameRopex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NameRopex.BorderSizePixel = 0
+NameRopex.Position = UDim2.new(0.032674931, 0, 0.0431034528, 0)
+NameRopex.Size = UDim2.new(0.941651881, 0, 0.133620679, 0)
+NameRopex.Visible = false
+NameRopex.Font = Enum.Font.SourceSans
+NameRopex.Text = "Ropex Hub"
+NameRopex.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameRopex.TextScaled = true
+NameRopex.TextSize = 14.000
+NameRopex.TextTransparency = 1.000
+NameRopex.TextWrapped = true
+NameRopex.TextXAlignment = Enum.TextXAlignment.Left
+
+Description.Name = "Description"
+Description.Parent = Main
+Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Description.BackgroundTransparency = 1.000
+Description.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Description.BorderSizePixel = 0
+Description.Position = UDim2.new(0.032674931, 0, 0.176724166, 0)
+Description.Size = UDim2.new(0.941651881, 0, 0.0905172378, 0)
+Description.Visible = false
+Description.Font = Enum.Font.SourceSans
+Description.Text = "The best free script hub on roblox"
+Description.TextColor3 = Color3.fromRGB(129, 129, 129)
+Description.TextScaled = true
+Description.TextSize = 14.000
+Description.TextTransparency = 1.000
+Description.TextWrapped = true
+Description.TextXAlignment = Enum.TextXAlignment.Left
+
+Textlabel.Name = "Textlabel"
+Textlabel.Parent = Main
+Textlabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Textlabel.BackgroundTransparency = 1.000
+Textlabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Textlabel.BorderSizePixel = 0
+Textlabel.Position = UDim2.new(0.147037268, 0, 0.405172467, 0)
+Textlabel.Size = UDim2.new(0.702152193, 0, 0.0870689824, 0)
+Textlabel.Visible = false
+Textlabel.Font = Enum.Font.SourceSans
+Textlabel.Text = "Please Enter Your Key"
+Textlabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+Textlabel.TextScaled = true
+Textlabel.TextSize = 14.000
+Textlabel.TextTransparency = 1.000
+Textlabel.TextWrapped = true
+
+KeyBox.Name = "KeyBox"
+KeyBox.Parent = Main
+KeyBox.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+KeyBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyBox.BorderSizePixel = 0
+KeyBox.Position = UDim2.new(0.123698108, 0, 0.534482837, 0)
+KeyBox.Size = UDim2.new(0.759605587, 0, 0.100000001, 0)
+KeyBox.Visible = false
+KeyBox.Font = Enum.Font.SourceSans
+KeyBox.Text = ""
+KeyBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyBox.TextScaled = true
+KeyBox.TextSize = 14.000
+KeyBox.TextTransparency = 1.000
+KeyBox.TextWrapped = true
+KeyBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_2.CornerRadius = UDim.new(0, 2)
+UICorner_2.Parent = KeyBox
+
+Submit.Name = "Submit"
+Submit.Parent = Main
+Submit.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Submit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Submit.BorderSizePixel = 0
+Submit.Position = UDim2.new(0.123697959, 0, 0.681034565, 0)
+Submit.Size = UDim2.new(0.235367537, 0, 0.100000001, 0)
+Submit.Visible = false
+Submit.Font = Enum.Font.SourceSansBold
+Submit.Text = "Submit"
+Submit.TextColor3 = Color3.fromRGB(84, 84, 84)
+Submit.TextScaled = true
+Submit.TextSize = 14.000
+Submit.TextTransparency = 1.000
+Submit.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = Submit
+
+Discord.Name = "Discord"
+Discord.Parent = Main
+Discord.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.385097414, 0, 0.681034565, 0)
+Discord.Size = UDim2.new(0.235367537, 0, 0.100000001, 0)
+Discord.Visible = false
+Discord.Font = Enum.Font.SourceSansBold
+Discord.Text = "Discord"
+Discord.TextColor3 = Color3.fromRGB(84, 84, 84)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextTransparency = 1.000
+Discord.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = Discord
+
+Help.Name = "Help"
+Help.Parent = Main
+Help.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Help.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Help.BorderSizePixel = 0
+Help.Position = UDim2.new(0.646496892, 0, 0.681034565, 0)
+Help.Size = UDim2.new(0.235367537, 0, 0.100000001, 0)
+Help.Visible = false
+Help.Font = Enum.Font.SourceSansBold
+Help.Text = "Help"
+Help.TextColor3 = Color3.fromRGB(84, 84, 84)
+Help.TextScaled = true
+Help.TextSize = 14.000
+Help.TextTransparency = 1.000
+Help.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = Help
+
+HelpSection.Name = "HelpSection"
+HelpSection.Parent = Main
+
+Help1.Name = "Help1"
+Help1.Parent = HelpSection
+Help1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help1.BackgroundTransparency = 1.000
+Help1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Help1.BorderSizePixel = 0
+Help1.Position = UDim2.new(0.0304583386, 0, 0.314522386, 0)
+Help1.Size = UDim2.new(0.702152193, 0, 0.0870689824, 0)
+Help1.Visible = false
+Help1.Font = Enum.Font.SourceSans
+Help1.Text = "1. Join Discord for the key!"
+Help1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Help1.TextScaled = true
+Help1.TextSize = 14.000
+Help1.TextWrapped = true
+Help1.TextXAlignment = Enum.TextXAlignment.Left
+
+Help2.Name = "Help2"
+Help2.Parent = HelpSection
+Help2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help2.BackgroundTransparency = 1.000
+Help2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Help2.BorderSizePixel = 0
+Help2.Position = UDim2.new(0.0304583386, 0, 0.452655852, 0)
+Help2.Size = UDim2.new(0.702152193, 0, 0.0870689824, 0)
+Help2.Visible = false
+Help2.Font = Enum.Font.SourceSans
+Help2.Text = "2. Complete all the steps of getting the key!"
+Help2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Help2.TextScaled = true
+Help2.TextSize = 14.000
+Help2.TextWrapped = true
+Help2.TextXAlignment = Enum.TextXAlignment.Left
+
+Help3.Name = "Help3"
+Help3.Parent = HelpSection
+Help3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help3.BackgroundTransparency = 1.000
+Help3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Help3.BorderSizePixel = 0
+Help3.Position = UDim2.new(0.0304583386, 0, 0.577839315, 0)
+Help3.Size = UDim2.new(0.702152193, 0, 0.0870689824, 0)
+Help3.Visible = false
+Help3.Font = Enum.Font.SourceSans
+Help3.Text = "3. Put the gotten key into the box!"
+Help3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Help3.TextScaled = true
+Help3.TextSize = 14.000
+Help3.TextWrapped = true
+Help3.TextXAlignment = Enum.TextXAlignment.Left
+
+Help4.Name = "Help4"
+Help4.Parent = HelpSection
+Help4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Help4.BackgroundTransparency = 1.000
+Help4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Help4.BorderSizePixel = 0
+Help4.Position = UDim2.new(0.0304583386, 0, 0.711656094, 0)
+Help4.Size = UDim2.new(0.702152193, 0, 0.0870689824, 0)
+Help4.Visible = false
+Help4.Font = Enum.Font.SourceSans
+Help4.Text = "4. Click submit and enjoy!"
+Help4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Help4.TextScaled = true
+Help4.TextSize = 14.000
+Help4.TextWrapped = true
+Help4.TextXAlignment = Enum.TextXAlignment.Left
+
+Back.Name = "Back"
+Back.Parent = HelpSection
+Back.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Back.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Back.BorderSizePixel = 0
+Back.Position = UDim2.new(0.0309601426, 0, 0.853701413, 0)
+Back.Size = UDim2.new(0.235367537, 0, 0.100000001, 0)
+Back.Visible = false
+Back.Font = Enum.Font.SourceSansBold
+Back.Text = "Back"
+Back.TextColor3 = Color3.fromRGB(84, 84, 84)
+Back.TextScaled = true
+Back.TextSize = 14.000
+Back.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = Back
+
+-- Scripts:
+
+local function SEJRNDU_fake_script() -- Submit.LocalScript 
+	local script = Instance.new('LocalScript', Submit)
+
+	local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xeporbuh/somethingthathasnomeaning/main/somethings.lua"))()
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.KeyBox.Text == key then
+			script.Parent.Parent.KeyBox.Text = "Valid Key!"
+			script.Parent.Parent.NameRopex.Visible = false
+			script.Parent.Parent.Description.Visible = false
+			script.Parent.Parent.Textlabel.Visible = false
+			script.Parent.Parent.KeyBox.Visible = false
+			script.Parent.Parent.Submit.Visible = false
+			script.Parent.Parent.Discord.Visible = false
+			script.Parent.Parent.Help.Visible = false
+			script.Parent.Parent:TweenSize(UDim2.new(0.214, 0,0, 0),Enum.EasingDirection.InOut,Enum.EasingStyle.Linear,0.5,false)
+			wait(0.5)
+			UI:Destroy()
